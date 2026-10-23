@@ -6,9 +6,13 @@
   "license": "MIT",
   "author": "Void Cursor contributors",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/void-cursor/void-cursor.git"
-  },
+  "type": "git",
+  "url": "git+https://github.com/void032/void-cursor.git"
+},
+"homepage": "https://github.com/void032/void-cursor#readme",
+"bugs": {
+  "url": "https://github.com/void032/void-cursor/issues"
+},
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,6 +1,6 @@
 # void-cursor
 
-A lightweight React cursor with an immediate dot and a smoothly trailing ring. It is SSR-safe, uses no runtime dependencies beyond React, and injects its own styles.
+A lightweight React cursor with an immediate dot and a smoothly trailing ring. It supports server-side rendering and injects its own styles.
 
 ## Install
 
@@ -8,7 +8,7 @@ A lightweight React cursor with an immediate dot and a smoothly trailing ring. I
 npm install void-cursor
 ```
 
-`react` and `react-dom` 18 or 19 are peer dependencies.
+Requires `React` and `React DOM` 18 or 19.
 
 ## Module support
 
