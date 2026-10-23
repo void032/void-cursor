@@ -22,14 +22,14 @@ import { VoidCursor } from 'void-cursor'
 export function App() {
   return (
     <>
-      <VoidCursor />
+      <VoidCursor hideNativeCursor />
       <button data-void-cursor="hover">Expand the cursor ring</button>
     </>
   )
 }
 ```
 
-Styles are injected after client mount; no stylesheet import is required. Hover expansion is opt-in: by default, only elements matching `[data-void-cursor="hover"]` expand the ring.
+By default, the native browser cursor remains visible. Set hideNativeCursor to hide it while the custom cursor is active. Hover expansion is opt-in: only elements matching [data-void-cursor="hover"] expand the ring.
 
 ## Props
 
