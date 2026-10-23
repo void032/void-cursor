@@ -1,18 +1,24 @@
 {
   "name": "void-cursor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight, SSR-safe custom cursor for React.",
-  "keywords": ["react", "cursor", "custom-cursor", "animation", "typescript"],
+  "keywords": [
+    "react",
+    "cursor",
+    "custom-cursor",
+    "animation",
+    "typescript"
+  ],
   "license": "MIT",
   "author": "Void Cursor contributors",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/void032/void-cursor.git"
-},
-"homepage": "https://github.com/void032/void-cursor#readme",
-"bugs": {
-  "url": "https://github.com/void032/void-cursor/issues"
-},
+    "type": "git",
+    "url": "git+https://github.com/void032/void-cursor.git"
+  },
+  "homepage": "https://github.com/void032/void-cursor#readme",
+  "bugs": {
+    "url": "https://github.com/void032/void-cursor/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,7 +40,11 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": false,
   "peerDependencies": {
     "react": "^18 || ^19",
