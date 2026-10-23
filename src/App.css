@@ -1,0 +1,98 @@
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #10100f;
+  color: #f2efe8;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.playground {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 5vw;
+}
+
+.playground__header,
+.playground__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: #8e8b83;
+}
+
+.playground__brand {
+  color: #f2ca50;
+  font-weight: 700;
+}
+
+.playground__content {
+  width: min(700px, 100%);
+  margin: auto;
+  padding: 100px 0;
+}
+
+.playground__eyebrow {
+  color: #f2ca50;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+}
+
+.playground__content h1 {
+  margin: 28px 0 20px;
+  font-size: clamp(52px, 9vw, 100px);
+  line-height: 0.98;
+  letter-spacing: -0.065em;
+  font-weight: 500;
+}
+
+.playground__content h1 span {
+  color: #a8a49a;
+}
+
+.playground__content p {
+  color: #99968e;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.playground__button {
+  margin-top: 24px;
+  padding: 14px 18px;
+  border: 1px solid #4a4639;
+  background: transparent;
+  color: #f2efe8;
+  font: inherit;
+  font-size: 13px;
+}
+
+.playground__button span {
+  margin-left: 20px;
+  color: #f2ca50;
+}
+
+.playground__footer {
+  padding-top: 24px;
+  border-top: 1px solid #292824;
+}
+
+@media (max-width: 480px) {
+  .playground {
+    padding: 24px;
+  }
+
+  .playground__status {
+    font-size: 9px;
+  }
+}
